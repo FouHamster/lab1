@@ -38,7 +38,7 @@ console.log('x = ',x)
 
 // Задание 3
 let p = 0
-n = 1
+let n = 1
 //let list = document.getElementById('task-3');
 
 for (let i = 1; n <= 10; i+=2) {
