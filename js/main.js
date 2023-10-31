@@ -21,8 +21,8 @@ let s = Math.PI * r * l
 console.log('Объём конуса: ', v)
 console.log('Площадь боковой поверхности: ', s)
 
-document.getElementById('ob').innerHTML = `Объём конуса: ${v}`
-document.getElementById('ploshad').innerHTML = `Площадь боковой поверхности: ${s}`
+//document.getElementById('ob').innerHTML = `Объём конуса: ${v}`
+//document.getElementById('ploshad').innerHTML = `Площадь боковой поверхности: ${s}`
 
 // задание 2
 alert('ax + b = 0')
@@ -32,20 +32,22 @@ let b = fool('Введите значение b:')
 
 let x = b / a
 
-console.log(x)
-document.getElementById('yraw').innerHTML = `Значение x = ${x}`
+console.log('x = ',x)
+
+//document.getElementById('yraw').innerHTML = `Значение x = ${x}`
 
 // Задание 3
 let p = 0
 n = 1
-let list = document.getElementById('task-3');
+//let list = document.getElementById('task-3');
 
 for (let i = 1; n <= 10; i+=2) {
     let p = ((Math.PI * (i ** 2)).toFixed(2))
-    let elList = document.createElement('li');
-    elList.innerHTML = `Круг ${n} = ${p}`;
-    list.appendChild(elList) 
-    // document.getElementById('pl').innerHTML = `Круг ${n} = ${p}`
+    
+    //let elList = document.createElement('li');
+    //elList.innerHTML = `Круг ${n} = ${p}`;
+    //list.appendChild(elList) 
+    
     console.log(`Круг ${n} = ${p}`)  
     n += 1       
 }
